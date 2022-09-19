@@ -68,7 +68,6 @@
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Sequence - NDZtore Order and Review Main Sequence" sap:VirtualizedContainerService.HintSize="478.4,430.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -140,7 +139,7 @@
                         <OutArgument x:TypeArguments="x:String">[str_url]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">http://ecomdemo.ndz.co.in:4007/</InArgument>
+                        <InArgument x:TypeArguments="x:String">http://ecomtestnode.ndz.co.in:4003/</InArgument>
                       </Assign.Value>
                     </Assign>
                     <FlowStep.Next>
@@ -306,7 +305,7 @@
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe NDZtore'" sap:VirtualizedContainerService.HintSize="2252,12203.2" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="7424c2feb948b3d571cbcfcbc504be5c" Selector="&lt;html app='chrome.exe' title='NDZtore | Grocery' /&gt;">
+                                                        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe NDZtore'" sap:VirtualizedContainerService.HintSize="2252,12203.2" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="7424c2feb948b3d571cbcfcbc504be5c" Selector="&lt;html app='chrome.exe' title='Pickbazar | Grocery' /&gt;">
                                                           <ui:BrowserScope.Body>
                                                             <ActivityAction x:TypeArguments="x:Object">
                                                               <ActivityAction.Argument>
@@ -1187,7 +1186,7 @@
                                                                                                   </ui:CursorPosition>
                                                                                                 </ui:Click.CursorPosition>
                                                                                                 <ui:Click.Target>
-                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="905cdbde-27d9-4a52-a106-6c5bb6b7f289" InformativeScreenshot="ea908e79c198c2b2403d4a9fd93194a6" Selector="&lt;webctrl aaname='★' idx='2' parentid='headlessui-dialog-82' tag='DIV' /&gt;">
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="905cdbde-27d9-4a52-a106-6c5bb6b7f289" InformativeScreenshot="ea908e79c198c2b2403d4a9fd93194a6" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='★' parentid='headlessui-dialog-56' tag='DIV' idx='2' /&gt;">
                                                                                                     <ui:Target.TimeoutMS>
                                                                                                       <InArgument x:TypeArguments="x:Int32" />
                                                                                                     </ui:Target.TimeoutMS>
@@ -1220,7 +1219,7 @@
                                                                                                   </ui:CursorPosition>
                                                                                                 </ui:Click.CursorPosition>
                                                                                                 <ui:Click.Target>
-                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="967cdf8a-f2e6-4310-a8e2-7d5c9b6c3a7b" InformativeScreenshot="99df796c540369d6a5ff117e35675783" Selector="&lt;webctrl aaname='★' idx='4' parentid='headlessui-dialog-82' tag='DIV' /&gt;">
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="967cdf8a-f2e6-4310-a8e2-7d5c9b6c3a7b" InformativeScreenshot="99df796c540369d6a5ff117e35675783" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='★' parentid='headlessui-dialog-56' tag='DIV' idx='3' /&gt;">
                                                                                                     <ui:Target.TimeoutMS>
                                                                                                       <InArgument x:TypeArguments="x:Int32" />
                                                                                                     </ui:Target.TimeoutMS>
@@ -1253,7 +1252,7 @@
                                                                                                   </ui:CursorPosition>
                                                                                                 </ui:Click.CursorPosition>
                                                                                                 <ui:Click.Target>
-                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3915f789-a06a-449a-b18a-f121782c1d74" InformativeScreenshot="d0a701ebe48a6cdb267e2c6c6b584bdf" Selector="&lt;webctrl aaname='★' idx='6' parentid='headlessui-dialog-82' tag='DIV' /&gt;">
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="3915f789-a06a-449a-b18a-f121782c1d74" InformativeScreenshot="d0a701ebe48a6cdb267e2c6c6b584bdf" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='★' parentid='headlessui-dialog-56' tag='DIV' idx='6' /&gt;">
                                                                                                     <ui:Target.TimeoutMS>
                                                                                                       <InArgument x:TypeArguments="x:Int32" />
                                                                                                     </ui:Target.TimeoutMS>
@@ -1286,7 +1285,7 @@
                                                                                                   </ui:CursorPosition>
                                                                                                 </ui:Click.CursorPosition>
                                                                                                 <ui:Click.Target>
-                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="962ddf75-6463-46fa-9f74-57989fdf140f" InformativeScreenshot="38e3d053fdeb57f0a6eec15c1b069639" Selector="&lt;webctrl aaname='★' idx='8' parentid='headlessui-dialog-82' tag='DIV' /&gt;">
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="962ddf75-6463-46fa-9f74-57989fdf140f" InformativeScreenshot="38e3d053fdeb57f0a6eec15c1b069639" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='★' parentid='headlessui-dialog-56' tag='DIV' idx='8' /&gt;">
                                                                                                     <ui:Target.TimeoutMS>
                                                                                                       <InArgument x:TypeArguments="x:Int32" />
                                                                                                     </ui:Target.TimeoutMS>
@@ -1319,7 +1318,7 @@
                                                                                                   </ui:CursorPosition>
                                                                                                 </ui:Click.CursorPosition>
                                                                                                 <ui:Click.Target>
-                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a2e048e2-a1de-419f-813e-33a4ff675c21" InformativeScreenshot="7bcd00ee44998e6bbb4604ff5261bc86" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='★' idx='10' parentid='headlessui-dialog-64' tag='DIV' /&gt;">
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a2e048e2-a1de-419f-813e-33a4ff675c21" InformativeScreenshot="7bcd00ee44998e6bbb4604ff5261bc86" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='★' parentid='headlessui-dialog-56' tag='DIV' idx='10' /&gt;">
                                                                                                     <ui:Target.TimeoutMS>
                                                                                                       <InArgument x:TypeArguments="x:Int32" />
                                                                                                     </ui:Target.TimeoutMS>
@@ -1337,7 +1336,7 @@
                                                                                   </ui:IfElseIf>
                                                                                   <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBefore="1000" DelayMS="1000" DisplayName="Type Into 'Description'" sap:VirtualizedContainerService.HintSize="794.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_5" Text="[str_review]">
                                                                                     <ui:TypeInto.Target>
-                                                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="66edde5f-f3f1-49c6-b393-e8e317597df9" InformativeScreenshot="9b77351b499795086487c2a10af28174" Selector="&lt;webctrl tag='TEXTAREA' /&gt;">
+                                                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="66edde5f-f3f1-49c6-b393-e8e317597df9" InformativeScreenshot="9b77351b499795086487c2a10af28174" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='Description' idx='*' /&gt;">
                                                                                         <ui:Target.TimeoutMS>
                                                                                           <InArgument x:TypeArguments="x:Int32" />
                                                                                         </ui:Target.TimeoutMS>
@@ -1359,7 +1358,7 @@
                                                                                       </ui:CursorPosition>
                                                                                     </ui:Click.CursorPosition>
                                                                                     <ui:Click.Target>
-                                                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7d1f7db-8c6e-42dd-966c-343486aa7dce" InformativeScreenshot="d04e79d7abadb7328d635498a9fd8a2f" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl innertext='Submit' idx='*' /&gt;">
+                                                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7d1f7db-8c6e-42dd-966c-343486aa7dce" InformativeScreenshot="d04e79d7abadb7328d635498a9fd8a2f" Selector="&lt;html app='chrome.exe' title='Ndztore' /&gt;&lt;webctrl aaname='Submit' /&gt;">
                                                                                         <ui:Target.TimeoutMS>
                                                                                           <InArgument x:TypeArguments="x:Int32" />
                                                                                         </ui:Target.TimeoutMS>
